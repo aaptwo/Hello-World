@@ -3,7 +3,7 @@
     stages {
         stage('build') {
             steps {
-                mvn --version
+                bat 'mvn --version'
             }
         }
     }
